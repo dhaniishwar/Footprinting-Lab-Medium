@@ -22,7 +22,7 @@
    ```
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;Now that we know exactly which ports are open, we run a deeper scan only on thoes ports
+>Now that we know exactly which ports are open, we run a deeper scan only on thoes ports
 
    ```
    nmap -sV -sC -p 111,135,139,445,2049,3389,5985,47001 10.129.202.41
