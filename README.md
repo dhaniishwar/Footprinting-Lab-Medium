@@ -159,4 +159,4 @@ xfreerdp3 /v:10.129.202.41 /u:alex /p:'lol123!mD'
  &nbsp;
 >We found a database called accounts containing a table called dbo.devsacc with lot of usernames and passwords (Including HTB password).
 
-<div align="center">**Goal Achieved**</div>
+<div align="center"># **Goal Achieved** </div>
