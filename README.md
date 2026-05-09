@@ -11,7 +11,7 @@
 
 **GOAL:**
 
-> The goal of this lab was to footprint a Windows machine and find the password of a user named HTB stored inside a database.
+&nbsp;&nbsp;The goal of this lab was to footprint a Windows machine and find the password of a user named HTB stored inside a database.
 
 **Port Scanning**
 
