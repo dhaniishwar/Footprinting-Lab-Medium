@@ -38,7 +38,7 @@
 
     sudo mkdir target-nfs
     ```
-
+   .
     <img width="200" height="90" alt="m-2" src="https://github.com/user-attachments/assets/7b703c07-a34d-4dcb-89eb-0c7b694ba6c3" />
 
 
