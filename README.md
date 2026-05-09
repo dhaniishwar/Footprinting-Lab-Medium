@@ -21,23 +21,26 @@
    nmap -p- --min-rate 5000 -T4 10.129.202.41
    ```
 
-   Now that we know exactly which ports are open, we run a deeper scan only on thoes ports
+&nbsp;&nbsp;&nbsp;&nbsp;Now that we know exactly which ports are open, we run a deeper scan only on thoes ports
 
-   ``bash
+   ```
    nmap -sV -sC -p 111,135,139,445,2049,3389,5985,47001 10.129.202.41
-   ``
+   ```
 
    <img width="789" height="637" alt="m-1" src="https://github.com/user-attachments/assets/a41bca63-9733-41af-9fea-548e91c386b5" />
 
-   The most unusual one was NFS(Network File System). NFS is file sharing protocal that is normally used on Linux systems, so seeing it open on windows machine immediately caught my attention.
+&nbsp;&nbsp;&nbsp;&nbsp;The most unusual one was NFS(Network File System). NFS is file sharing protocal that is normally used on Linux systems, so seeing it open on windows machine immediately caught my attention.
 
 **Enumeration on NFS**
 
-    ``bash
+    ```
     showmount -e 10.129.202.41
 
     sudo mkdir target-nfs
-    ``
+    ```
+
+    <img width="200" height="90" alt="m-2" src="https://github.com/user-attachments/assets/7b703c07-a34d-4dcb-89eb-0c7b694ba6c3" />
+
 
     
 
