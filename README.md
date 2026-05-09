@@ -13,11 +13,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;The goal of this lab was to footprint a Windows machine and find the password of a user named HTB stored inside a database.
 
-**Port Scanning**
+**Port Scanning:**
 
-   Running one scan that does everything at once takes a long time. A smarter appoach is to split it into two scans, first scan sweeps all 65535 ports as fast as possible.
+&nbsp;&nbsp;&nbsp;&nbsp;Running one scan that does everything at once takes a long time. A smarter appoach is to split it into two scans, first scan sweeps all 65535 ports as fast as possible.
 
-   ``bash
+  &nbsp;&nbsp;&nbsp;&nbsp; ``bash
    nmap -p- --min-rate 5000 -T4 10.129.202.41
    ``
 
