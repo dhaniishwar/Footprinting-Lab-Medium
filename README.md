@@ -16,11 +16,11 @@
 ---
 **Tools Used:**
 
- <div align = center> > Nmap </div>
- <div align = center> > Showmount </div>
- <div align = center> > Smbclient </div>
- <div align = center> > Xfreerdp3 </div>
- <div align = center> > SSMS (SQL Server Management Studio) </div>
+ <div align = center> - Nmap </div>
+ <div align = center> - Showmount </div>
+ <div align = center> - Smbclient </div>
+ <div align = center> - Xfreerdp3 </div>
+ <div align = center> - SSMS (SQL Server Management Studio) </div>
 
 ---
 **Port Scanning:**
@@ -172,4 +172,6 @@ xfreerdp3 /v:10.129.202.41 /u:alex /p:'lol123!mD'
 
 ---
 **Summary:**
+
+&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp; Enumerated an NFS share which contained a support ticket with SMTP credentials for user alex. Used those credentials to access an SMB share containing a file with  SA credentials. RDP'd into the machine using alex's credentials, then opened SQL Server Management Studio as Administrator using the SA password to access the accounts database and retrieve the HTB user credentials.
