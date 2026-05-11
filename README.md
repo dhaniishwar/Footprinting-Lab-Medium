@@ -45,7 +45,7 @@
    <img width="789" height="637" alt="m-1" src="https://github.com/user-attachments/assets/a41bca63-9733-41af-9fea-548e91c386b5" />
    
 &nbsp;
->The most unusual one was NFS(Network File System). NFS is file sharing protocal that is normally used on Linux systems, so seeing it open on windows machine immediately caught my attention.
+&nbsp;&nbsp;&nbsp;&nbsp; The most unusual one was NFS(Network File System). NFS is file sharing protocal that is normally used on Linux systems, so seeing it open on windows machine immediately caught my attention.
 
 ---
 **Enumeration on NFS :**
