@@ -2,11 +2,13 @@
 
 **Difficulty:** Medium
 
-**OS Used:** Linux
+**Attacker OS:** Linux
+
+**Target OS:** Windows
 
 **Target IP:** 10.129.202.41
 
-**Data:** 2026-05-08
+**Date:** 2026-05-08
 
 ---
 **GOAL:**
@@ -45,7 +47,7 @@
    <img width="789" height="637" alt="m-1" src="https://github.com/user-attachments/assets/a41bca63-9733-41af-9fea-548e91c386b5" />
    
 &nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp; The most unusual one was NFS(Network File System). NFS is file sharing protocal that is normally used on Linux systems, so seeing it open on windows machine immediately caught my attention.
+&nbsp;&nbsp;&nbsp;&nbsp; The most unusual one was NFS(Network File System). NFS is file sharing protocol that is normally used on Linux systems, so seeing it open on windows machine immediately caught my attention.
 
 ---
 **Enumeration on NFS :**
@@ -62,11 +64,11 @@
    <img width="200" height="90" alt="m-2" src="https://github.com/user-attachments/assets/ae2a7c85-5219-465b-85df-3f59b83165e7" />
    
 &nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;We used 'showmount' to ckeck what NFS share were available on the target and found a share called '/TechSupport' that was accessible by everyone - no authentication required.We can get the share folder on our local mechine by mounting it and send to the folder name 'target-nfs'.
+&nbsp;&nbsp;&nbsp;&nbsp;We used 'showmount' to check what NFS share were available on the target and found a share called '/TechSupport' that was accessible by everyone - no authentication required.We can get the share folder on our local mechine by mounting it and send to the folder name 'target-nfs'.
 
 
 ```
-sudo mount -t nsf 10.129.202.41:/TechSupport ./target-nfs -o nolock
+sudo mount -t nfs 10.129.202.41:/TechSupport ./target-nfs -o nolock
 ```
 ```
 cd target-nfs
