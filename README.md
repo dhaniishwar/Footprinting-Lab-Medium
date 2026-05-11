@@ -86,6 +86,7 @@ ls -al
 <img width="462" height="564" alt="m-5" src="https://github.com/user-attachments/assets/e2abe98c-389b-4a7f-a622-3f4e778020da" />
 
 &nbsp;
+&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;Only one file,ticket4238791283782.txt, had a size of 1305 bytes, which told us immediately that it was the only file worth reading.
 &nbsp;
 
