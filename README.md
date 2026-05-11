@@ -99,7 +99,7 @@ cat ticket4238791283782.txt
 &nbsp;&nbsp;&nbsp;&nbsp;Inside the file, there was a chat conversation between a support operator and a user named alex, where alex had pasted his SMTP configuration file directly into the chat. That config file contained his username and plaintext password.
 &nbsp;
 
-**Credential :** alex:lol123!mD
+ &nbsp;&nbsp;&nbsp;&nbsp;**Credential :** alex:lol123!mD
 
 ---
 **Enumeration on SMB :**
@@ -128,7 +128,7 @@ smbclient \\\\10.129.202.41\\devshare -U alex
  &nbsp;
  
 
-**Credential :** sa:87N1ns@slls83
+&nbsp;&nbsp;&nbsp;&nbsp; **Credential :** sa:87N1ns@slls83
 &nbsp;
 
 &nbsp;&nbsp;&nbsp;&nbsp;sa is the default built-in superuser account in Microsoft SQL Server. sa(System Administrator) account, the most powerful account in a Microsoft SQL Server database.
